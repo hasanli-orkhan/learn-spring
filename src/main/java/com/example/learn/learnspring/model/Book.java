@@ -7,17 +7,15 @@ import lombok.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
-@Builder
 @Entity
 @Table(name = "books")
 public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    Long id;
 
     @Column(name = "book_name", length = 500)
-    private String name;
+    String name;
 
 }
