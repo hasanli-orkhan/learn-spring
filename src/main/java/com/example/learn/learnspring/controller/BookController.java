@@ -12,7 +12,7 @@ import java.util.List;
 public class BookController {
 
     @Autowired
-    BookService bookService;
+    private BookService bookService;
 
     // localhost:8080/books
     @GetMapping("/books")

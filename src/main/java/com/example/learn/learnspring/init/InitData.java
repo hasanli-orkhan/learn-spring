@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class InitData implements CommandLineRunner {
 
     @Autowired
-    BookRepository bookRepository;
+    private BookRepository bookRepository;
 
     @Override
     public void run(String... args) {

@@ -13,9 +13,9 @@ public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    Long id;
+    private Long id;
 
     @Column(name = "book_name", length = 500)
-    String name;
+    private String name;
 
 }
